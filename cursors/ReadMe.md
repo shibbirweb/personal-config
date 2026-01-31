@@ -1,1 +1,1 @@
-# Crusor created By Shamim
+# Crusor Collections
