@@ -20,7 +20,7 @@
 		"description": "Laravel dd helper method",
 		"scope": "php",
 		"body": [
-			"dd('$1');"
+			"dd($1);"
 		]
 	}
 }
