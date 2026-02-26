@@ -1,0 +1,26 @@
+{
+	"log": {
+		"prefix": [
+			"log",
+			"llog"
+		],
+		"description": "Laravel log",
+		"scope": "php",
+		"body": [
+			"\\\\Log::info(__METHOD__ . ' - ' . __LINE__, [",
+			"            '$1' => '$2'",
+			"        ]);"
+		]
+	},
+	"dd": {
+		"prefix": [
+			"dd",
+			"ldd"
+		],
+		"description": "Laravel dd helper method",
+		"scope": "php",
+		"body": [
+			"dd('$1');"
+		]
+	}
+}
